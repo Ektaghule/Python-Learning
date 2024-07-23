@@ -1,4 +1,4 @@
-#there are 3 numeric type in python int, float, complex. (comple numbers are the numbers with "j" as the imaginary part)
+#there are 3 numeric type in python int, float, complex. (complex numbers are the numbers with "j" as the imaginary part)
 x=19
 y=57.4
 z=7j
