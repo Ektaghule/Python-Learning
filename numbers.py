@@ -28,4 +28,4 @@ print(r)
 
 print(type(p))
 print(type(q))
-print(type(r))
+print(type(r)) # type: ignore
