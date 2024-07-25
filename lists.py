@@ -2,10 +2,10 @@
 items=["apple","orange","kiwi","mango"]
 print(items)
 
-#you can acces the list items through index munbers
+#you can access the list items through index munbers
 print(items[2])
 
-#you can also acces the range of items from the list 
+#you can also access the range of items from the list 
 print(items[0:3])
 print(items[-1])
 
