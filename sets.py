@@ -23,4 +23,4 @@ print(set1)
 #to delete the set completely del keyword is used
 set4={"a","b","c"}
 del set4
-print(set4)
+print(set4)#this will cause an error since "set4" no longer exists.
