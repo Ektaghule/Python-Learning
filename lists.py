@@ -1,3 +1,4 @@
+ #there are 4 built-in data types in Python used to store collections of data, which are  List, Tuple, Sets, and Dictionary, all with different qualities and usage.
 #lists are used to store multiple values in a single variable
 items=["apple","orange","kiwi","mango"]
 print(items)
