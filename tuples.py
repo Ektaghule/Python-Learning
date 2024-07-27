@@ -37,3 +37,22 @@ print(o)
 print(k)
 print(a)
 print(m)
+
+#----Exercise----
+#1.Write circle_calc() function that takes radius of a circle as an input from user and then it calculates 
+# and returns area, circumference and diameter. You should get these values in your main program by calling 
+# circle_calc function and then print them.
+import math
+
+def circle_calc(radius):
+    area=math.pi*radius*radius
+    circum=2*math.pi*radius
+    dia=2*radius
+    return area,circum,dia
+
+radius=float(input("Enter the radius: "))
+area,circum,dia=circle_calc(radius)
+
+print("Area:",area)
+print("Circumerence:",circum)
+print("Diameter:",dia)
