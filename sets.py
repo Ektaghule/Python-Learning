@@ -23,4 +23,18 @@ print(set1)
 #to delete the set completely del keyword is used
 set4={"a","b","c"}
 del set4
-print(set4)#this will cause an error since "set4" no longer exists.
+
+#----Exercise----
+#1.create any set anf try to use frozenset(setname)
+myset={"Dish","Cup","Glass","Spoon","Fridge"}
+x=frozenset(myset)
+print("This set is frozen:",myset)
+
+#2.Find the elements in a given set that are not in another set
+# set1 = {1,2,3,4,5}
+# set2 = {4,5,6,7,8}
+# diffrence between set1 and set2 is {1,2,3}
+seta = {1,2,3,4,5}
+setb = {4,5,6,7,8}
+c= seta.difference(setb)
+print(c)
